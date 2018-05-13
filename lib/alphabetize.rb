@@ -8,7 +8,7 @@ def alphabetize(arr)
     arr.sort_by do |sentence|
         letters_array = sentence.split("")
         letters_array.map do |letter|
-          esperanto_array.index(sentence)
+          esperanto_array.index(letter)
         end
     end
 end
